@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+<!-- Chuyển đổi từ feet sang meters: -->
+
+<input type="number" id="num"><br><br>
+<button type="button" onclick="meter()">calculate Meters</button>
+<button type="button" onclick="feet()">calculate Feet</button>
+<script>
+    function feet() {
+        let feetnum = document.getElementById("num").value;
+        alert(feetnum*3.279);
+        return feetnum * 3.279;
+    }
+    function meter() {
+        let meternum = document.getElementById("num").value;
+        alert(meternum*0.305);
+        return meternum * 0.305;
+
+    }
+
+</script>
+</body>
+</html>
